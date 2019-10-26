@@ -1,9 +1,0 @@
-INDEX VERSION 1.131+C:\Users\nebiy\OneDrive\Desktop\selenium\.metadata\.plugins\org.eclipse.jdt.core
-2410337621.index
-2810410568.index
-1248545562.index
-2910729735.index
-3581163120.index
-2996033391.index
-666181504.index
-3522719835.index
