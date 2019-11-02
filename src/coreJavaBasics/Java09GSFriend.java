@@ -7,6 +7,8 @@ public class Java09GSFriend  {
 		Java08GSInheritance gsf  = new Java08GSInheritance();
 		
 		
+		
+		
 
 	}
 
