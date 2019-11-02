@@ -1,5 +1,7 @@
 package coreJavaBasics;
 
+
+
 public class Java04StringsEx {
 
 	public static void main(String[] args) {
