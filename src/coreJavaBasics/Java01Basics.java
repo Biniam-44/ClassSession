@@ -1,6 +1,8 @@
 package coreJavaBasics;
 
-public class Java01Basics {
+import coreJava02.*;
+
+public class Java01Basics extends Java08AccessModifiers {
 
 	public static void main(String[] args) {
 		
@@ -35,7 +37,13 @@ public class Java01Basics {
 		method.MethodWithParameter(100);
 		method.MethodWithBolleanRetunType(false);
 		System.out.println(method.ReturnStringMethod());
+		Java08AccessModifiers am = new Java08AccessModifiers();
+		am.PublicMethod();
+		
+		
 	
 	}
 
 }
+
+ 

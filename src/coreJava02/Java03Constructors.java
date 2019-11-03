@@ -6,12 +6,13 @@ public class Java03Constructors {
 	
 	// Constructor is always called at the creation of the object
 	//Constructor have no return type
+	// Constructor's name is always the same with the class name 
 	//Default Constructor
 	public Java03Constructors() {
 		System.out.println("I'm the Constructor Class");
 	}
 	
-	//Parametrized Constructor
+	//Parameterized Constructor
 	public Java03Constructors(int a) {
 		System.out.println("I'm the constructor with the parameter " + a);
 	}
