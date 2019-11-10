@@ -4,6 +4,7 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
 
@@ -39,7 +40,8 @@ public class Selenium03Elements {
 		
 		/********************************* Calendars *************************************************/
 		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
-		driver.findElement(By.className("ui-state-highlight")).click();
+		WebElement departureDate = driver.findElement(By.className("ui-state-highlight"));
+		departureDate.click();
 		
 		driver.findElement(By.xpath("//input[@id='ctl00_mainContent_rbtnl_Trip_0']")).click();
 		

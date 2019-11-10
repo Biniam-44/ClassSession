@@ -40,6 +40,9 @@ public class Java01Basics extends Java08AccessModifiers {
 		Java08AccessModifiers am = new Java08AccessModifiers();
 		am.PublicMethod();
 		
+		String name  = " \"Tom\" ";
+		
+		System.out.println(name);
 		
 	
 	}

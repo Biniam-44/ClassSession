@@ -1,0 +1,14 @@
+
+1- This Keyword - Every time if we want to give a priority to the class variable instead of the 
+method variable we use this keyword.
+
+2- Super Keyword - Every time when we want to access the parent class method or variable we use super keyword
+
+3- Try Block - It is the block that we pass our expected working logic.
+
+4 - Catch Block - It is the block that we catch the exception 
+
+	* Handled exception - we use to catch the exceptions that we know they might happen
+	* Unhandled exception - we use to catch an exception that are unknown
+	
+5 - Finally block - It is the block that will get executed after the exception is catched
