@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Loans">
+	<test name ="Login to Loans Portals">
+		<classes>
+			<class name="testng02Loans.Testng02BusinessLoan">
+			<methods>
+			<exclude name="MobileLoginBusinessLoan"/>
+			</methods>
+			</class>
+			
+			<class name="testng02Loans.Testng01PersonalLoan">
+			<methods>
+			<exclude name="APILoginPersonalLoan"/>
+			</methods>
+			</class>
+			<class name="testng02Loans.Testng03HomeLoan">
+			<methods>
+			<include name="WebLoginHomeLoan"/>
+			</methods>
+			</class>
+			<class name="testng02Loans.Testng04Annotations"/>
+		</classes>
+	</test>
+</suite>
